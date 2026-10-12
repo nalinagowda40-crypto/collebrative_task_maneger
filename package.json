@@ -1,0 +1,22 @@
+{
+  "name": "collaborative-task-manager",
+  "version": "1.0.0",
+  "description": "Collaborative Task Manager – Full Stack Web Application with RBAC, Sprints, Kanban, Dev & QA Workflows",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "test:mvp": "cd backend && node test-mvp.js"
+  },
+  "keywords": [
+    "task-manager",
+    "react",
+    "vite",
+    "express",
+    "sequelize",
+    "postgresql",
+    "rbac"
+  ],
+  "author": "",
+  "license": "ISC"
+}
